@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Codystar:wght@300&display=swap");
+/*used to get the Cody Star font
+make sure to place import before any rules (at the very top)
+go to google fonts and copy from the select this style*/
+/*mainly had trouble with ordering everything and remembering to add the specification after fonts*/
+
+/*used to organize and align the navigation bar correctly-->
+    <!--see w3school.com for more detail and explanation-->
+    <!--uses CSS declaration block to standardize the alignment and font*/
+* {
+  margin: 0;
+  padding: 0;
+}
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+h1 {
+  text-align: center;
+  font-family: "Codystar", cursive;
+  text-shadow: 2.5px 2.5px 2.5px pink;
+  letter-spacing: 20px;
+  font-size: 50px;
+  color: #ef8d8f;
+  padding: 20px;
+}
+h2 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 35px;
+  margin: 10px;
+  letter-spacing: 7px;
+}
+p {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  padding: 20px;
+}
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #265f83;
+  width: 100%;
+}
+
+li {
+  float: left;
+  display: inline;
+}
+
+li a {
+  display: block;
+  color: white;
+  letter-spacing: 5px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+}
+
+li a:hover {
+  background-color: #111;
+}
+/*.topnav {
+  position: relative;
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  text-align: center;
+}
