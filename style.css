@@ -83,3 +83,16 @@ li a:hover {
   width: 40%;
   text-align: center;
 }
+.button {
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  background-color: #b5ddf7;
+  font-size: 25px;
+  color: #FFFFFF;
+  margin: 6%;
+  padding: 2%;
+  box-shadow: -4px 2px 1px #244961;
+}
